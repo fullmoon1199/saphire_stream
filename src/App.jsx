@@ -9,7 +9,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/service/ai" element={<ServiceAI />} />
+        {/* <Route path="/service/ai" element={<ServiceAI />} /> */}
       </Routes>
     </Layout>
   );
